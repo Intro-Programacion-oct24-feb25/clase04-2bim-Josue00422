@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 package paquete3;
-
-import ejemplos01.*;
 import java.util.Scanner;
 
 /**
