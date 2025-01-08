@@ -3,16 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplos01;
+package paquete3;
 
+import ejemplos01.*;
 import java.util.Scanner;
 
 /**
  *
  * @author reroes
  */
-public class Ejemplo03 {
-    
+public class Ejemplo031 {
+    // generar una solucion que permita suma los numeros 
+    //los bumero deben ser ingresados por teclkado en el metodo main el metodo
+    //que genera la suma debe verificar
+    //ue los dos numeros sean positivos para realizar la operacion casoi
+    //ontrario debe devolver 0 como suma 
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
@@ -33,7 +38,12 @@ public class Ejemplo03 {
     
     public static int obtenerSuma(int a, int b){
         int suma;
-        suma = a + b;
+        if(a>0 && b>0){
+            suma = a + b;
+        }else{
+            suma = 0;
+        }
+       
         return suma;
         // return a + b;
     }
