@@ -10,6 +10,14 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
+    /* en este codigo tengo 3 arreglos bidimensionales los caules ya estan
+    declarados con sus respectivos valores execepto el arreglo 3 , este arreglo
+    va a cumplir con la funcion de multiplicar os arreglos anteriores 
+    luego de esto utilizamos un ciclo repetitivo el cual es el ciclo para 
+    el cual nos ayuda a ordenar los arreglos luego utilizar un procedimiento el cual
+    me permite multiplicar estos arreglos para que nos de el resultado
+    
+    */
 
     public static void main(String[] args) {
         // 
