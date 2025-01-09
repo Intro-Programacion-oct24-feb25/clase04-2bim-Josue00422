@@ -39,11 +39,17 @@ public class Ejemplo08 {
         
         switch (salida) {
             case 1:
-                mensajeSuma = obtenerTablaSumar(tablaOperacion);
+                mensajeSuma = obtenerTablaSumar(limite , tabla);
                 System.out.printf("%s\n",mensajeSuma);
+                break;
             case 2 :
-                mensajeSuma = obtenerTablaMultiplicar(tablaOperacion);
+                mensajeSuma = obtenerTablaMultiplicar(limite,tabla);
                 System.out.printf( "%s\n",mensajeSuma);
+                break;
+            default:
+                System.out.println("opcion no valida");
+                break;
+                
                 
                 
 
